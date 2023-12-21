@@ -1,0 +1,38 @@
+/* App.css */
+body{
+  background-color: gradient(red,yellow);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.note-form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.note-form input,
+.note-form textarea,
+.note-form input[type="color"],
+.note-form button {
+  margin-bottom: 10px;
+
+  border-radius: 5px;
+  height: 25px;
+  background-color: aqua;
+}
+
+.note-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Add more styles as needed */

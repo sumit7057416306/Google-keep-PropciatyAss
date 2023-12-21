@@ -1,0 +1,30 @@
+.note {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .note input,
+  .note textarea {
+    width: 100%;
+    margin-bottom: 15px;
+
+  }
+  
+  .note button {
+    margin-top: 10px;
+  }
+
+  button:hover{
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+
+  }
+
+  body{
+    background-color: burlywood;
+    
+  }
